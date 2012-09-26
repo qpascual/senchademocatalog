@@ -7,7 +7,6 @@ Ext.define("Catalog.view.DetailView", {
 	},
 	
 	constructView: function() {
-		Ext.Msg.alert("construct DetailView");
 		var data2 = this.getData();		
 		
 		if(window.innerHeight > window.innerWidth) {
